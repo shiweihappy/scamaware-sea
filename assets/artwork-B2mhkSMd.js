@@ -1,0 +1,1 @@
+function t(r,m=Math.random){const a=[...r];for(let e=a.length-1;e>0;e--){const s=Math.floor(m()*(e+1));[a[e],a[s]]=[a[s],a[e]]}return a}const o={memoryBack:"images/games/cards/back-v2.webp",memoryFrame:"images/games/cards/frame-front.webp",avatars:{cat:"images/games/avatars/cat.webp",scammer:"images/games/avatars/scammer.webp"}};export{o as g,t as s};
